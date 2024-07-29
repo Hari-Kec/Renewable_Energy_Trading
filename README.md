@@ -1,2 +1,2 @@
 # Renewable_Energy_Trading
-24hrs Hackathon 
+1.npm install redux react-redux 
