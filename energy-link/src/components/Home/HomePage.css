@@ -1,0 +1,91 @@
+.wallet-overview {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color:   
+ #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size:   
+ 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #666;
+}
+
+.tabs button.active {
+  font-weight: bold;
+  color: #333;
+}
+
+.wallet-info {
+  padding: 20px;
+}
+.buy-electricity {
+  position: absolute;
+  top: 400px;
+  right: 250px;
+  margin-left:150px;
+  width: 300px; /* Adjust the width as needed */
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 100; /* Ensures it appears above other elements */
+}
+
+.buy-electricity h2 {
+  margin-bottom: 10px;
+}
+.balance {
+  margin-bottom: 20px;
+}
+.btn{
+  width:350px;
+  background-color: #32188f;
+
+}
+.view-toggle{
+  width:350px;
+  background-color: #32188f;
+}
+.balance p:first-child {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.balance p:last-child {
+  color: #999;
+}
+
+.user-details p {
+  margin-bottom: 5px;
+}

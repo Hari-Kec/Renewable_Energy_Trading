@@ -1,0 +1,124 @@
+/* src/components/LoginPage.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+  }
+  
+  .login-box {
+    background: #fff;
+    width: 800px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #e6e6e6;
+  }
+  
+  .login-image img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  
+  .login-form {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group i {
+    padding: 10px;
+    background: #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #e6e6e6;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #57b846;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #333;
+  }
+  /* src/components/LoginPage.css */
+
+/* Other existing styles */
+
+/* Style for login type button container */
+.login-type-buttons {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    display: flex;
+    gap: 10px; /* Space between buttons */
+    z-index: 1; /* Ensure buttons are above other elements */
+  }
+  
+  /* Style for each button */
+  .login-type-button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #f0f0f0;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Active button style */
+  .login-type-button.active {
+    background-color: #007bff;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Button hover style */
+  .login-type-button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Optional: Button focus style for accessibility */
+  .login-type-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  
