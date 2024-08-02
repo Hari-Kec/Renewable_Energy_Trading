@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import './LoginPage.css';
 import { useNavigate } from 'react-router-dom';
+// import BusinessDashboard from '../BusinessDashboard/BusinessDashboard';
 
 const LoginPage = () => {
   const [loginType, setLoginType] = useState('user');
